@@ -16,7 +16,7 @@ const Navbar = () => {
 
   const handleNav = () => {
     setNav(!nav);
-    document.body.style.overflow = nav ? "hidden" : "auto";
+    document.body.style.overflow = !nav ? "hidden" : "auto"; // Fix the condition to toggle overflow
   };
 
   return (
