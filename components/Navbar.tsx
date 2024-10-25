@@ -16,6 +16,7 @@ const Navbar = () => {
 
   const handleNav = () => {
     setNav(!nav);
+    document.body.style.overflow = nav ? "hidden" : "auto";
   };
 
   return (
