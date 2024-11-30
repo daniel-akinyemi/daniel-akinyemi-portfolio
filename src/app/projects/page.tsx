@@ -6,6 +6,8 @@ import googleclonehomepage from "../../../public/googleclonehomepage.png";
 import defilandingpage from "../../../public/defilandingpage.png";
 import graft3r from "../../../public/graft3r.png";
 import shaklibrands from "../../../public/shaklibrands.png";
+import kwikish from "../../../public/kwikish-homepage.png";
+import secureitcontrols from "../../../public/secure-it-controls.png";
 import JsAesthetics from "../../../public/JsAesthetics.png";
 import NuStore from "../../../public/NuStore.png";
 import { motion, AnimatePresence } from "framer-motion";
@@ -22,8 +24,28 @@ const page = () => {
       >
         <div className="scrollbar-thin scrollbar-thumb-red-500 scrollbar-track-slate-700 mx-auto">
           <div className="max-w-6xl mx-auto py-20 px-4 md:px-0 grid grid-cols-1 sm:grid-cols-2 gap-8">
+          <ProjectCard
+              projectName="Kwikish"
+              projectSummary="Custom Shopify theme for a food brand"
+              techCard1="Liquid"
+              techCard2="Javascript"
+              techCard3="Tailwind"
+              projectLink="https://kwikish.com"
+              backgroundImage={`${kwikish.src}`}
+              githubLink="https://github.com/daniel-akinyemi/Prisma-Theme"
+            />
             <ProjectCard
-              projectName="Prisma Theme"
+              projectName="Secure It Controls"
+              projectSummary="Shopify Theme for a home security brand"
+              techCard1="Liquid"
+              techCard2="Javascript"
+              techCard3=""
+              projectLink="https://whebbio-dev-store.myshopify.com/"
+              backgroundImage={`${secureitcontrols.src}`}
+              githubLink="https://github.com/daniel-akinyemi/Prisma-Theme"
+            />
+            <ProjectCard
+              projectName="Bonto Theme"
               projectSummary="Custom Shopify theme for online marketplace"
               techCard1="Liquid"
               techCard2="Javascript"
