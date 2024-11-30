@@ -32,7 +32,7 @@ const page = () => {
               techCard3="Tailwind"
               projectLink="https://kwikish.com"
               backgroundImage={`${kwikish.src}`}
-              githubLink="https://github.com/daniel-akinyemi/Prisma-Theme"
+              githubLink="https://github.com/daniel-akinyemi/kwikish"
             />
             <ProjectCard
               projectName="Secure It Controls"
@@ -42,7 +42,7 @@ const page = () => {
               techCard3=""
               projectLink="https://whebbio-dev-store.myshopify.com/"
               backgroundImage={`${secureitcontrols.src}`}
-              githubLink="https://github.com/daniel-akinyemi/Prisma-Theme"
+              githubLink=""
             />
             <ProjectCard
               projectName="Bonto Theme"
